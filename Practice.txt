@@ -1,0 +1,27 @@
+
+Dưới đây là một số bài tập để luyện tập về mối quan hệ giữa các đối tượng trong lập trình hướng đối tượng (OOP):
+
+Quan hệ kế thừa:
+a. Tạo một lớp cha Animal có các thuộc tính như name và phương thức make_sound().
+b. Tạo các lớp con như Dog, Cat kế thừa từ lớp Animal và mở rộng phương thức make_sound() để in ra tiếng kêu của động vật tương ứng.
+
+Quan hệ đa hình:
+a. Tạo một interface Shape có phương thức calculate_area().
+b. Tạo các lớp Circle, Rectangle, Triangle implement interface Shape và cài đặt phương thức calculate_area() cho mỗi lớp.
+
+Quan hệ composition:
+a. Tạo lớp Engine đại diện cho động cơ của một phương tiện.
+b. Tạo lớp Car có một đối tượng Engine là thành phần của nó.
+c. Thực hiện các phương thức như start_engine(), stop_engine() trong lớp Car để điều khiển động cơ.
+
+Quan hệ aggregation:
+a. Tạo lớp Player đại diện cho người chơi trong một trò chơi.
+b. Tạo lớp Team có một danh sách các đối tượng Player là thành viên.
+c. Thực hiện phương thức để thêm và xóa người chơi từ đội.
+
+Quan hệ dependency:
+a. Tạo lớp Logger để ghi log thông tin.
+b. Tạo lớp Calculator sử dụng đối tượng Logger để ghi log kết quả tính toán.
+c. Sử dụng dependency injection để chuyển đối tượng Logger vào Calculator.
+
+Nhớ rằng, khi thực hiện các bài tập này, hãy tập trung vào việc thiết kế các lớp và mối quan hệ giữa chúng sao cho logic và tái sử dụng code được tốt nhất. Đồng thời, kiểm tra kết quả của mỗi bài tập để đảm bảo tính chính xác của mã OOP của bạn.
